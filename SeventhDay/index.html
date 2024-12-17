@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coffee-Bar con el mejor ambiente, menú variado y eventos especiales. Descubre promociones y reserva en línea.">
+    <meta name="keywords" content="Coffee-Bar, café, restaurante, reservas, eventos">
+    <meta name="author" content="Coffee-Bar Seventh Day">
+    <title>Seventh Day</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img class="logomain" src="/img/logo.png" alt=""></div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+                <li><a href="https://wa.me/+51952872268">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1>Bienvenido a Seventh Day</h1>
+                <p>Disfruta del mejor café y los mejores platillos, un ambiente cálido y eventos inolvidables.</p>
+                <a href="#menu" class="btn">Descubre Nuestro Menú</a>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <h2>Nuestro Menú</h2>
+            <p>Explora nuestras deliciosas opciones de café, comidas y postres.</p>
+            <a href="/Copia de CARTA GENSHIN COFFE.pdf" class="btn">Ver la Carta</a>
+        </section>
+        <section id="promociones" class="promos">
+            <h2>Promociones</h2>
+            <p>¡Aprovecha nuestros descuentos y happy hours!</p>
+            <div class="promos-grid">
+                <div class="promo">Happy Hour de 4:00 PM a 6:00 PM</div>
+                <div class="promo">2x1 en bebidas los viernes</div>
+            </div>
+        </section>
+
+        <section id="reservas" class="reservas">
+            <h2>Reservas y Pedidos</h2>
+            <p>Reserva tu mesa o pide en línea para recoger en el lugar.</p>
+            <form id="reservas-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+
+                <button type="submit" class="btn">Reservar</button>
+            </form>
+        </section>
+
+        <section id="galeria" class="galeria">
+            <h2>Galería</h2>
+            <div class="galeria-grid">
+                <img src="/img/ambiente1.jpg" alt="ambiente">
+                <img src="/img/barra.jpg" alt="barra de café">
+                <img src="/img/postres.jpg" alt="Postres deliciosos">
+                <img src="/img/bebidas.jpg" alt="Bebidas">
+                <img src="/img/ambiente2.jpg" alt="Ambiente cálido">
+                <img src="/img/postre1.jpg" alt="Postres deliciosos">
+                <img src="/img/coctel1.jpg" alt="coctel">
+                <img src="/img/ambiente.jpg" alt="Ambiente cálido">
+                <img src="/img/brunch.jpg" alt="Brunches">
+                <img src="/img/chocolate.jpg" alt="Chocolate">
+                <img src="/img/coctel2.jpg" alt="Alchohol">
+                <img src="/img/vista.jpg" alt="Paisaje">
+                <img src="/img/crembule.jpg" alt="Cremas">
+                <img src="/img/brunch2.jpg" alt="Desayunos">
+                <img src="/img/cocteles.jpg" alt="Postres deliciosos">
+            </div>
+        </section>
+
+        <section id="ubicacion" class="ubicacion">
+            <h2>Ubicación</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d239.89457040832048!2d-70.021423542145!3d-15.840131646770008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2ses!4v1734446902143!5m2!1ses-419!2ses" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p>Encuéntranos fácilmente y disfruta de estacionamiento gratuito.</p>
+        </section>
+
+        <section id="testimonios" class="testimonios">
+            <h2>Testimonios</h2>
+            <div class="testimonios-grid">
+                <div class="testimonio">
+                    <i class="fas fa-user"></i>
+                    <blockquote>¡El mejor café de la ciudad! - María G.</blockquote>
+                </div>
+                <div class="testimonio">
+                    <i class="fas fa-user"></i>
+                    <blockquote>Un ambiente acogedor y personal amable. - Juan P.</blockquote>
+                </div>
+                <div class="testimonio">
+                    <i class="fas fa-user"></i>
+                    <blockquote>Excelente servicio y ambiente acogedor. - Ana L.</blockquote>
+                </div>
+                <div class="testimonio">
+                    <i class="fas fa-user"></i>
+                    <blockquote>Una experiencia increíble cada visita. - Carlos M.</blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section id="eventos" class="eventos">
+            <h2>Eventos</h2>
+            <p>Descubre nuestras actividades especiales: música en vivo, noches temáticas y más.</p>
+            <div class="eventos-imagenes">
+                <img src="https://cafeeneventos.com/wp-content/uploads/2019/02/Face-7.jpg" alt="Evento 1">
+                <img src="https://www.eventbarista.es/wp-content/uploads/cafe-para-evento.jpg" alt="Evento 2">
+                <img src="https://www.covermanager.com/es/wp-content/uploads/sites/2/2024/06/celebration-3057027_640-1.jpg" alt="Evento 3">
+                <img src="https://www.covermanager.com/es/wp-content/uploads/sites/2/2024/06/priscilla-du-preez-Q7wGvnbuwj0-unsplash-1-1.jpg" alt="Evento 3">
+                <img src="https://www.covermanager.com/es/wp-content/uploads/sites/2/2024/06/ibrahim-boran-aoGA9N8QNrI-unsplash-1-1.jpg" alt="Evento 3">
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p>&copy; 2024 Seventh Day. Todos los derechos reservados.</p>
+            <p class="telef">Teléfono y WhatsApp: <a class="telef" href="https://wa.me/+51952872268"><i class="fab fa-whatsapp"></i>  +51 952 872 268</a></p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/mZwEMyqaCKsnBs63/"><i class="fab fa-facebook"></i>Facebook</a>
+                <a href="https://www.instagram.com/seventhday2024"><i class="fab fa-instagram"></i>Instagram</a>
+                <a href="https://www.tiktok.com/@seventhday31"><i class="fab fa-tiktok"></i>TikTok</a>
+                <br><br>
+                <p class="opi">Powered by <a class="opi" href="https://github.com/sebas0303">@sebasdev</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        // Cambiar el fondo del header al hacer scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Navegación suave
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Validación del formulario
+        const form = document.getElementById('reservas-form');
+        form.addEventListener('submit', function (e) {
+            const nombre = document.getElementById('nombre').value;
+            const email = document.getElementById('email').value;
+            if (!nombre || !email) {
+                e.preventDefault();
+                alert('Por favor completa todos los campos.');
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+
+
